@@ -1,0 +1,61 @@
+ *{
+            padding: 0;
+            margin: 0;
+        }
+        body,html{
+            height: 100%;
+        }
+        .bg{
+            height: 100%;
+            overflow: hidden;
+            background: url(./images/8.png);
+            position: relative;
+        }
+        .hill-l{
+            position: absolute;
+            left: -350px;
+            top: -420px;
+        }
+        .hill-r{
+            position: absolute;
+            right: -330px;
+            top: -250px;
+        }
+        .hill-c{
+            position: absolute;
+            left: 200px;
+            bottom: -750px;
+            zoom:0.7;
+        }
+        .bird{
+            position: absolute;
+            bottom: 0px;
+        }
+        .hill-back{
+            position: absolute;
+            top: 300px;  
+/*            border: 1px solid red;*/
+            zoom:0.7;
+        }
+        .cloud{
+            position: absolute;
+            top: 250px;
+        }
+        .title1{
+            position: absolute;
+            bottom: 250px;
+            left: 360px;
+            display: none;
+        }
+        .title2{
+            position: absolute;
+            bottom: 380px;
+            left: 380px;
+            display: none;
+        }
+        .title3{
+            position: absolute;
+            bottom: 480px;
+            left: 430px;
+            display: none;
+        }
